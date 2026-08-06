@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <title>Főoldal</title>
-</head>
-<body>
-    <h1>Üdv Pándor weboldalán!</h1>
-    <h3>Találtam egy ilyen órát a githubon:</h3>
-    <button id="openClock">Óra weboldal</button>
 
-    <script>
-        document.getElementById("openClock").addEventListener("click", function() {
-            // Itt add meg a pontos elérési utat a HTML fájlhoz
-            window.location.href = "oldalak/clock/index.html";
-        });
-    </script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clock made of clocks</title>
+
+    <script type="module" crossorigin src="/assets/style-clock.js"></script>
+    <link rel="stylesheet" crossorigin href="/oldalak/clock/assets/index-B_N8DONW.css">
+  </head>
+  <body>
+    <h1>Teszt</h1>
+    <div id="app"></div>
+  </body>
 </html>
